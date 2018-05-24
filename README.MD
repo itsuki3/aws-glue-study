@@ -2,8 +2,16 @@ https://s3.console.aws.amazon.com/s3/buckets/crawler-public-ap-northeast-1/fligh
 
 s3://crawler-public-ap-northeast-1/flight/2016/csv/
 
-
 Steps:
+
+## 0. Preparation
+
+* Create CloudFormation stack using the follwing S3 path:
+```
+https://s3-ap-northeast-1.amazonaws.com/<bucketName>/<pathName>/master.yaml
+```
+* Make sure that you've checked the checkbox for IAM resource creation before pressing "Create" button at the last step of stack creation.
+
 ## 1. Play with the original data
 ## 1-1. Crawl the original data by creating a table - flight_data.csv - by the AWS Glue Crawlers GUI
 
