@@ -210,3 +210,13 @@ aws-glue-study-IAMStack-MBEUULS-AWSGlueServiceRole-D38ZRN3RZCZX
 ```
 select count(1) from flight_parquet
 ```
+
+# 5. Preparing Glue Develop Endpoint
+
+## 5-0. TBD
+* TBD
+
+# 6. ETL application: delay transformation by date and airport
+
+## 6-0. TBD
+* TBD
